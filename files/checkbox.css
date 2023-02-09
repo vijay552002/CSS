@@ -1,0 +1,14 @@
+input[type="checkbox"]:checked {
+    background: rgb(199, 24, 12);
+  }
+  @media (pointer: fine) {
+    input[type="checkbox"] {
+        appearance: none;
+        border:solid;
+        width: 15px;
+        height: 15px;
+        border-width: 1px;
+        border-color: blue;
+        margin: 0;
+    }
+}
